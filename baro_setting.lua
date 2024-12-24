@@ -34,7 +34,7 @@ function main()
 	end
 	return 0
 end
-create_command("FlyWithLua/MSFSBaroSet/AltimeterReset","Altimeter Reset",
+create_command("FlyWithLua/MSFSBaroSet/AltimeterReset","Altimeter (Reset)",
 [[main()]],
 "", -- do nothing if the button is held down
 "") -- do nothing if the button is released
