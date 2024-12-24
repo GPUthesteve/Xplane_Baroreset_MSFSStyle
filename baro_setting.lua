@@ -17,7 +17,7 @@ function getqnh12() --TBD
 	if GetSimver >= 120000 then 
 	dataref("GetQNH_XP12","sim/weather/region/qnh_pas","readonly")
 	QNH_Proc = GetQNH_XP12 * 0.0002953
-	else dataref("QNH_Proc","sim/weather/barometer_sealevel_inhg","readonly") --when Xplane deprecated this, i will add some logic later
+	else dataref("QNH_Proc","sim/weather/barometer_sealevel_inhg","readonly") --when Xplane deprecated this dataref, this logic will come in play soon to ensure compatiblity with XP11 users
 	return 0
 	end
 end
